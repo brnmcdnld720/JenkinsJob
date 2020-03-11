@@ -45,4 +45,10 @@
             <version>${junit.platform.version}</version>
         </dependency>
     </dependencies>
+   <distributionManagement>
+        <repository>
+			<id>localRepoFile</id>
+			<url>file://C:/CreatedJars</url>
+        </repository>
+    </distributionManagement>
 </project>
